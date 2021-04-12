@@ -20,13 +20,13 @@ DDRB = 0x00 ; PORTB = 0xFF ;
 DDRC = 0xFF ; PORTC = 0x00 ;  
 unsigned char tmpB = 0x00 ; 
 unsigned char tmpA = 0x00 ;  
-unsigned char counter = 0x00 ; 
+unsigned char counter = 0 ; 
     /* Insert your solution below */
     while (1) {
 
-	tmpA = PORTA ; 
-	tmpB = PORTB ; 
-unsigned char i = 0x00 ; 
+	tmpA = PINA ; 
+	tmpB = PINB ; 
+unsigned char i = 0 ; 
 	for(i  ; i < 8 ; ++i){
 
 	if((tmpA & 0x01 ) == 0x01) {
