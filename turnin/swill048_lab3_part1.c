@@ -20,7 +20,7 @@ DDRB = 0x00 ; PORTB = 0xFF ;
 DDRC = 0xFF ; PORTC = 0x00 ;  
 unsigned char tmpB = 0x00 ; 
 unsigned char tmpA = 0x00 ;  
-unsigned char counter = 0 ; 
+unsigned char counter = 0x00; 
     /* Insert your solution below */
     while (1) {
 
