@@ -30,7 +30,7 @@ weight =((weight + PIND )<<1 ) + (PORTB & 0x01 ) ;
 	PORTB = 0x00 ; 
 	}
 	else{
-	PORTB = 0x04 //PB1 = 0 PB2 = 1 
+	PORTB = 0x04 ;  //PB1 = 0 PB2 = 1 
 	}
 
 
