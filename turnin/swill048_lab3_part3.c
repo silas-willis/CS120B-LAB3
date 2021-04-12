@@ -37,13 +37,13 @@ unsigned char LEDs = 0x00 ;
 	LEDs = 0x3E ; 
 	}
 	else if( tmpA > 12 ){
-	LEDs = 0x3E ; 
+	LEDs = 0x3F ; 
 	}
 	else if(tmpA == 0) {
 	LEDs = 0x40 ; 
 	}
 
-	if((tmpA & 0xF0) == 0x30){  //00110000
+	if((PINA & 0xF0) == 0x30){  //00110000
 	LEDs = LEDs | 0x80 ; //10000000
 	} 
 
