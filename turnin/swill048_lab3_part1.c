@@ -27,7 +27,7 @@ unsigned char counter = 0 ;
 	tmpA = PINA ; 
 	tmpB = PINB ; 
 unsigned char i = 0 ; 
-	for(i  ; i < 8 ; ++i){
+	for(i = 0 ; i < 8 ; ++i){
 
 	if((tmpA & 0x01 ) == 0x01) {
 	counter++ ; 	
